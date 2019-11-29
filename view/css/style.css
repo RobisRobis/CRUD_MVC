@@ -1,0 +1,344 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+
+	background-color:#ccc;
+	margin:0pc;
+	/*background-image:url(../imagens/Futebol.jpg);
+	background-repeat:no-repeat;
+	background-position:center;*/
+}
+
+
+.validacao{
+	color:red;
+	font-size:10px;
+
+}
+
+#principal {
+
+	width:980px;
+	height:1200px;
+	background-color:#fff;
+	margin-left:auto;
+	margin-right:auto;
+	border:1px solid #000000;
+}
+
+#header {
+
+	width:100%;
+	height:200px;
+	background-color:#999999;
+	
+	
+}
+
+#menu {
+
+	width:100%;
+	height:50px;
+	background-color:#EFEFEF;
+
+}
+
+#content {
+
+	width:100%;
+	height:900px;
+	background-color:#FFFFFF;
+
+}
+
+#footer {
+
+	width:100%;
+	height:50px;
+	background-color:#999999;
+
+}
+
+/*Configuração da tablea do menu*/
+
+#tblmenu {
+
+	width:100%;
+	height:100%;
+	border:solid 2px;
+
+}
+
+#tblmenu td {
+
+	border:solid 1px;
+	background-color:#FFFF00;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#993300;
+	font-weight:bold;
+	text-align:center;
+	width:20%;
+}
+
+
+/**/
+
+/*formatação de link*/
+a {
+
+	text-decoration:none;
+	color:#333333;
+}
+
+a:hover {
+
+	/*color:#CCCCCC;
+	font-size:16px;*/
+}
+
+#tblmenu td:hover {
+	
+	background-color:#FFFFCC;
+	font-size:18px;
+
+}
+
+
+
+/*Divs para estrutura o conteudo*/
+
+#conteudo1 {
+
+	width:294px;
+	height:300px;
+	background-color:#CCCCCC;
+	/*position:absolute;*/
+	float:left;
+	
+
+}
+#conteudo2 {
+
+	width:670px;
+	height:300px;
+	background-color:#FFFFFF;
+	/*position:absolute;
+	margin-left:294px;*/
+	float:right;
+	
+	padding:2px;
+	overflow:auto;
+
+
+}
+
+
+#conteudo3 {
+
+	width:670px;
+	height:300px;
+	background-color:#FFFFFF;
+	/*position:absolute;
+	margin-left:294px;*/
+	float:left;
+
+}
+
+
+.titulo {
+
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	text-align:center;
+	color:#0099FF;
+	font-weight:bold;
+
+}
+
+.texto {
+
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:justify;
+
+}
+
+
+
+/*formatação para o php*/
+
+#cadastro {
+
+	width:100%;
+	height:600px;
+	background-color:#FFFFFF;
+	margin-bottom:150px;
+    
+	
+}
+
+#tblcadastro {
+	width:400px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	border:solid 2px;
+	border-color:#C0C0C0;
+	border-radius:5px 5px 5px 5px;
+	box-shadow:10px 10px 10px #ccc;
+	
+}
+
+.tblcadastro_td{
+	width:100px;
+	border:solid 1px;
+	border-color:#CCCCCC;
+	font-family:verdana;
+	font-size:12px;
+	font-weight:bold;
+	height:40px;
+	text-align:center;
+	border-color:#DCDCDC;
+	background-color:#E8E8E8;
+}
+
+
+.tblcadastro_td_campos{
+	width:100px;
+	border:solid 1px;
+	border-color:#CCCCCC;
+	font-family:verdana;
+	font-size:12px;
+	font-weight:bold;
+	height:40px;
+	text-align:left;
+	border-color:#DCDCDC;
+}
+
+#consulta {
+
+	width:100%;
+	height:480px;
+	background-color:#ffffff;
+	overflow:auto;
+    
+
+
+}
+
+#tblconsulta {
+
+	width:95%;
+	
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#FFFFFF;
+	border:solid 2px;
+	border-color:#C0C0C0;
+	border-radius:5px 5px 5px 5px;
+	box-shadow:10px 10px 10px #ccc;
+
+
+}
+
+#tblconsulta td{
+
+	width:20%;
+	border: solid 1px;
+	
+}
+
+.tblconsulta_dados{
+	
+	font-family:verdana;
+	font-size:12px;
+	text-align:left;
+	padding-top:20px;
+	padding-left:10px;
+	height:30px;
+	
+}
+
+.titulo_tabela {
+	background-color:#6495ED;
+	font-family:verdana;
+	font-size:16px;
+	text-align:center;
+	height:50px;
+	color:#ffffff;
+	border-radius:5px 5px 5px 5px;
+
+
+}
+
+
+/**/
+
+.caixa:focus{
+	background-color:#FFFFCC;
+}
+.caixa{
+	font-family:verdana;
+	font-size:10px;
+}
+
+
+/* Formatação da Modal */
+
+#container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    z-index: 999;
+    display: none;
+}
+
+#modal{
+    width: 800px;
+    height: 500px;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+}
+
+#tabelaContatos{
+    border: solid 2px red;
+}
+
+.imgFoto{
+    width: 80px;
+    height: 80px;
+}
+
+#foto{
+    width: 100px;
+    height: 100px;
+    border: solid;
+    position: absolute;
+    margin-left: 570px;
+    margin-top: -440px;
+}
+
+#foto img{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
