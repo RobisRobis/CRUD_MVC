@@ -4,8 +4,6 @@
 /* Classe de conexão com o banco de dados MySql
  * Autor: Gabriel Robis Pereira
  * Data de criação: 2019-11-25
- * Data/Hora de Modificação:
- * Modificações realidadas:
 */
 class ConexaoMysql {
     private $server;
