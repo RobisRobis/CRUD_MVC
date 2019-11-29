@@ -3,10 +3,6 @@
 /* Classe de Controller Contato
  * Autor: Gabriel Robis Pereira
  * Data de criação: 2019-11-25
- * Data/Hora de Modificação:
- * Modificações realidadas:
- * 
- * 
 */
 class ContatoController {
 
